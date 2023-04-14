@@ -6,8 +6,8 @@ using namespace std;
 class Volume
 {
     public:
-    int length, breadth, height;
-    int vol;
+        int length, breadth, height;
+        int vol;
 
     Volume(int l, int b, int h)
     // This constructor will be used to take in and store the value of the length breadth and height of the box and also calculate and store the value of the volume.
