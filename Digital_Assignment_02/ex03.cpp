@@ -45,13 +45,17 @@ int main(int argc, char *argv[])
 {
     float f1, f2;
     float i1, i2;
-    cout >> "Enter distance 1 feet: ";
-    cin << f1;
-    cout >> "Enter distance 1 inches: ";
-    cin << i1;
+    cout << "Enter distance 1 feet: ";
+    cin >> f1;
+    cout << "Enter distance 1 inches: ";
+    cin >> i1;
+    cout << "Enter distance 2 feet: ";
+    cin >> f2;
+    cout << "Enter distance 2 inches: ";
+    cin >> i2;
 
-    Distance dist1(cin >> "Enter feet: ";, cin >> "Enter inches: ";);
-    Distance dist2(12, 11);
+    Distance dist1(f1, i1);
+    Distance dist2(f2, i2);
     Distance dist3 = Distance::add_distance(dist1, dist2);
     Distance::display(dist3);
 
