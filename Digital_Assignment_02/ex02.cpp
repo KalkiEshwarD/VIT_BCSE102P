@@ -6,9 +6,9 @@ using namespace std;
 class Employee
 {
     public:
-    string emp_name;        // using string type variable to store name of employee
-    int year_of_joining;
-    string address;         //using string type variable to store address of employee
+        string emp_name;        // using string type variable to store name of employee
+        int year_of_joining;
+        string address;         //using string type variable to store address of employee
 
     Employee(string name, int year, string addr)        // creating a constructor function to assign values to attributes to each of the class objects.
     {
