@@ -51,7 +51,7 @@ int main(int argc, char *argv[])
     Employee emp1(s, t);
     emp1.Addsal();
     emp1.AddWork();
-    printf("The modified salary of the employee is: %d", emp1.salary);
+    cout << "The modified salary of the employee is: " << emp1.salary << endl;
 
     return 0;
 }
