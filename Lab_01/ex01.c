@@ -1,4 +1,5 @@
-// Develop a C program for sum of two numbers
+// Develop a C program for sum of two numbers.
+// Allocate three variables
 
 #include <stdio.h>
 
@@ -12,8 +13,11 @@ int sum(int num1, int num2)
         DESCRIPTION: This is a function that takes in two integers as input and then outputs their sum.
     */
 
-
-    return num1 + num2;
+    int sum;
+    sum = num1 + num2;
+    
+    
+    return sum;
 }
 
 int main()
