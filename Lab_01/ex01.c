@@ -7,7 +7,7 @@ int sum(int num1, int num2)
 {
     /*
         INPUT: --{num1, num2}-- [integer, integer] 
-        OUTPUT: --num1 + num2-- [integer] The sum of two integers
+        OUTPUT: --sum-- [integer] The sum of two integers
 
         DEPENDENCIES: Nil
         DESCRIPTION: This is a function that takes in two integers as input and then outputs their sum.
