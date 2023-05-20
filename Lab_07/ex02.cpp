@@ -23,15 +23,29 @@ class Customer {
     }
 };
 
-class Calls: protected Customer {
-
+class Calls: {
+    public:
+        int total_calls;
+        float unit_price = 0.50;
+        
+    void getcalls(int total_calls)
+    {
+        this->total_calls = total_calls;
+    }
 };
 
-class Bill: protected Customer {
-
+class Bill: public Customer, public: Calls {
+    public:
+        float calculate()
+        {
+           float price = unit_price * total_calls;
+           float stax = 0.12 * price;
+           float vat = 0.14 * price;
+           return price + stax + vat;
+        }
 };
 
 int main()
 {
-
+    return 0;
 }
